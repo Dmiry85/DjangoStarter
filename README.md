@@ -9,3 +9,7 @@ Lesson2 - The purpose of this lesson is to get acquainted with the basics of req
 Lesson3 - The purpose of this lesson is to get acquainted with the basics of representations in Django. The performance is responsible for what exactly is given to the user.
 
 Lesson4 - The purpose of this lesson is to familiarize yourself with the basics of templates in Django. The templates allow you to generate the same text with variations depending on the data, in particular to draw the same web page, etc.
+
+Lesson5 part 1 - The purpose of this lesson is to get acquainted with the basics of the DJango application with the database. Learn to create your own models, configure them and learn how to work with them. Also, in the process of the lesson, it will be considered how to connect a more complex database to the application than available in Django. Additionally, the interaction between models or tables in the database will be considered.
+
+Lesson5 part 2 - The purpose of this lesson is to get acquainted with the basics of the DJango application with the database. In the process of the lesson, it will be considered how to update the database (migration) using Django and the model. Additionally, work with Django ORM and managers in Django will be considered.
