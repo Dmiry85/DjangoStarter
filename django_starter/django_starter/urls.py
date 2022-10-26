@@ -21,5 +21,6 @@ urlpatterns = [
     path('less_2/', include('less_2.urls')),
     path('less_3/', include('less_3.urls')),
     path('less_4/', include('less_4.urls')),
+    path('less_5/', include('less_5.urls')),
     path('admin/', admin.site.urls),
 ]

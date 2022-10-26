@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'less_2',
     'less_3',
     'less_4',
+    'less_5'
 ]
 
 MIDDLEWARE = [
@@ -79,8 +80,12 @@ WSGI_APPLICATION = 'django_starter.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'course',
+        'USER': 'itvdn',
+        'PASSWORD': 'itvdn',
+        'HOST': '127.0.0.1',
+        'PORT': '5432'
     }
 }
 
@@ -119,7 +124,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = 'less_3/static/'
+STATIC_URL = '/static/'
+MEDIA_ROOT = 'less_5/static/tmp/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
