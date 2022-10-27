@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'less_3',
     'less_4',
     'less_5',
-    'less_6'
+    'less_6',
+    'less_8'
 ]
 
 MIDDLEWARE = [
@@ -61,7 +62,7 @@ ROOT_URLCONF = 'django_starter.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['less_6', 'less_3', 'less_8'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
